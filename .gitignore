@@ -21,3 +21,8 @@
 *.i*86
 *.x86_64
 *.hex
+
+# project specific
+*.cproject
+*.project
+.README.md.html

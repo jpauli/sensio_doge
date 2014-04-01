@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("sensio_doge", "for sensio_doge support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("sensio_doge", "enable sensio_doge support", "no");
+
+if (PHP_SENSIO_DOGE != "no") {
+	EXTENSION("sensio_doge", "sensio_doge.c");
+}
+
